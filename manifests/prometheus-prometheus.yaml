@@ -18,6 +18,7 @@ spec:
       port: web
   enableFeatures: []
   externalLabels: {}
+  externalUrl: http://prometheus.leimeng.run
   image: quay.io/prometheus/prometheus:v2.45.0
   nodeSelector:
     kubernetes.io/os: linux
